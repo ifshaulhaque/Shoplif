@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">Shoplif</string>
+
+    <string name="login">"Login"</string>
+    <string name="sign_up">"Sign Up"</string>
+    <string name="verify">"Verify"</string>
+    <string name="verifying">"Verifying"</string>
+    <string name="mobile_no">"Mobile No"</string>
+    <string name="invalid">"Invalid"</string>
+    <string name="incorrect_pin">"Incorrect Pin"</string>
+    <string name="pin_must_6_digit">"Pin must be of 6 digits"</string>
+    <string name="pin">"Pin"</string>
+    <string name="continue_text">"Continue"</string>
+    <string name="skip">"Skip"</string>
+    <string name="send_sms">"Send SMS"</string>
+    <string name="sms_rationale">"Sending SMS and Reading SMS permission Required to verify Phone Number"</string>
+    <string name="permission_required">"Permission Required"</string>
+    <string name="ok">"OK"</string>
+    <string name="no_thanks">"No Thanks"</string>
+    <string name="settings">"Settings"</string>
+    <string name="mobile_no_verification_failed">"<b>Mobile no Verification is failed!</b>\nPlease check your mobile no and try again"</string>
+    <string name="verify_time_alert">"It will take %s sec."</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="need_mobile_no_on_same_device">"To use this application we need to verify your number. and your number should be on this device. we send an SMS to verify the number."</string>
 </resources>

@@ -2,7 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature android:name="android.hardware.telephony" android:required="true"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -13,7 +18,7 @@
         android:theme="@style/Theme.Shoplif"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".screens.onboarding.OnboardingActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.Shoplif">
